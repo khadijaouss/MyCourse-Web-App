@@ -1,0 +1,237 @@
+
+  @import url(https://fonts.googleapis.com/css?family=Lato);
+  @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+  
+  
+  a {
+      text-decoration: none;
+      color: #fff;
+  }
+  p > a:hover{
+      color: #d9d9d9;
+      text-decoration:  underline;
+  }
+  ul {
+      padding:0;
+      list-style: none;
+  }
+  .footer-social-icons {
+      width: 350px;
+      display:block;
+      margin: 0 auto;
+  }
+  .social-icon {
+      color: #2683ee;
+  }
+  ul.social-icons {
+      margin-top: 10px;
+  }
+  .social-icons li {
+      vertical-align: top;
+      display: inline;
+      height: 100px;
+  }
+  .social-icons a {
+      color: #fff;
+      text-decoration: none;
+  }
+  .fa-facebook {
+      padding:10px 14px;
+      -o-transition:.5s;
+      -ms-transition:.5s;
+      -moz-transition:.5s;
+      -webkit-transition:.5s;
+      transition: .5s;
+      background-color: #000000;
+  }
+  .fa-facebook:hover {
+      background-color: #3d5b99;
+  }
+  .fa-twitter {
+      padding:10px 12px;
+      -o-transition:.5s;
+      -ms-transition:.5s;
+      -moz-transition:.5s;
+      -webkit-transition:.5s;
+      transition: .5s;
+      background-color: #000000;
+  }
+  .fa-twitter:hover {
+      background-color: #00aced;
+  }
+  .fa-linkedin {
+      padding:10px 14px;
+      -o-transition:.5s;
+      -ms-transition:.5s;
+      -moz-transition:.5s;
+      -webkit-transition:.5s;
+      transition: .5s;
+      background-color: #000000;
+  }
+  .fa-linkedin:hover {
+      background-color: #0073a4;
+  }
+  #inpt{height:100px;}
+  #mycourse{background-color:black;margin: 0;height:50px}
+  hr{background-color:#2683ee;border:0;}
+  body{
+      margin: 0;
+      padding: 0;
+      min-height: 15vh;
+      background:black;
+      justify-content: center;
+      align-items: center;
+      font-family: Chiller;
+      
+      
+  }
+  
+  
+  #inpt{height:100px;}
+  #mycourse{background-color:black;margin: 0;height:56px}
+  hr{background-color:#2683ee;border:0;}
+  
+  h2 {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  .content {
+    font-family: Chiller;
+    font-size:  1.8rem;
+    
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+#add_note{font-size:2em;}
+button{
+  padding: 8px;
+  outline: none;
+  cursor: pointer;
+  font-family: inherit;
+  border-radius: 5px;
+  background: whitesmoke;
+  border: 1px solid lightgray;
+}
+
+button:hover{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#modal{
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#inner_modal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+#inner_modal textarea{
+  width: 200px;
+  height: 200px;
+  padding: 25px;
+  outline: none;
+  resize: none;
+  font-size: 1.5rem;
+  font-family: inherit;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.9);
+}
+
+#inner_modal i{
+  font-size: 1.4rem;
+  color: gray;
+  cursor: pointer;
+  margin-top: -285px;
+  margin-left: -35px;
+  transition: 1s ease-in-out;
+}
+
+#inner_modal i:hover{
+  color: lightgray;
+}
+#submit1 {
+  margin-left: 330px;
+  
+}
+
+.container{
+  width: 1280px;
+  margin: auto;
+}
+
+#header{
+  color: white;
+  padding: 0 20px;
+  min-height: 70px;
+  text-shadow: 1px 1px black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fas{
+  color: #c2ff3d;
+}
+
+#all_notes{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+
+.note{
+  width:200px;
+  height: 200px;
+  transition: 2s;
+  cursor: pointer;
+  overflow-wrap: break-word;
+  box-shadow: 0px 10px 24px 0px rgba(0,0,0,0.75);
+}
+
+.note h1{
+  font-size: 1.5rem;
+}
+
+.details {
+  margin-top: 25px;
+  padding: 0 15px;
+  font-size: 1.5rem;
+}
+
+.details i{
+  color: whitesmoke;
+  cursor: pointer;
+  text-shadow: 1px 1px #BBB;
+}
+
+@media(max-width:1280px){
+  .container{
+    width: 100%;
+  }
+}
+
+@media(max-width:768px){
+  #header{
+    padding: 20px;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+  

@@ -1,0 +1,256 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+p > a:hover{
+    color: #d9d9d9;
+    text-decoration:  underline;
+}
+ul {
+    padding:0;
+    list-style: none;
+}
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #2683ee;
+
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #000000;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #000000;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #000000;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+#inpt{height:100px;}
+#mycourse{background-color:black;margin: 0;height:100px}
+#inpt{height:100px;}
+hr{background-color:#2683ee;border:0;}
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 15vh;
+    background:black;
+    justify-content: center;
+    align-items: center;
+    font-family: Chiller;
+}
+
+#logo{width:130px;
+height:50px;}
+#opacity{background-color: rgba(202, 203, 211, 0.795);
+opacity:50%;
+position:absolute;
+width:100%;
+height:100%;
+margin:0;}
+
+#text{
+position:absolute;
+top:200px;
+left:200px;
+}
+#titre{
+    font-size: 47px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black;}
+#minititre{font-size:35px;
+font-style:normal;
+color: black;
+font-weight: lighter;
+text-align: center;}
+#proverbe{font-style:italic;
+font-size:35px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+text-align:center;
+color:rgba(7, 28, 56, 0.91);}
+
+:root{
+    --background-dark: #2d3548;
+    --text-light: rgba(255,255,255,0.6);
+    --text-lighter: rgba(255,255,255,0.9);
+    --spacing-s: 8px;
+    --spacing-m: 16px;
+    --spacing-l: 24px;
+    --spacing-xl: 32px;
+    --spacing-xxl: 64px;
+    --width-container: 1200px;
+  }
+  
+  html {  
+    height: 100%;  
+   } 
+   body {  
+    margin:0;  
+    padding:0;  
+    font-family: Chiller;  
+    background-image: url("1920px-INPT_Rabat.jpg");
+    background-size: 1500px;
+    background-attachment: fixed;
+    
+   }  
+   .login-box {  
+    position: absolute;  
+    top: 60%;
+    left: 80%;  
+    opacity:100%;
+    width: 400px;  
+    padding: 40px;  
+    transform: translate(-50%, -50%);  
+    background: rgba(0, 0, 0, 0.877);  
+    box-sizing: border-box;  
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);  
+    border-radius: 10px;  
+   }  
+   .login-box h2 {  
+    margin: 0 0 30px;  
+    padding: 0;  
+    color: #fff;  
+    text-align: center;  
+   }  
+   .login-box .user-box {  
+    position: relative;  
+   }  
+   .login-box .user-box input {  
+    width: 100%;  
+    padding: 10px 0;  
+    font-size: 16px;  
+    color: #fff;  
+    margin-bottom: 30px;  
+    border: none;  
+    border-bottom: 1px solid #fff;  
+    outline: none;  
+    background: transparent;  
+   }  
+   .login-box .user-box label {  
+    position: absolute;  
+    top:0;  
+    left: 0;  
+    padding: 10px 0;  
+    font-size: 16px;  
+    color: #fff;  
+    pointer-events: none;  
+    transition: .5s;  
+   }  
+   .login-box .user-box input:focus ~ label,  
+   .login-box .user-box input:valid ~ label {  
+    top: -20px;  
+    left: 0;  
+    color: #4169E1;  
+    font-size: 12px;  
+   }  
+   .login-box form a {  
+    position: relative;  
+    display: inline-block;  
+    padding: 10px 20px;  
+    color: #4169E1;  
+    font-size: 16px;  
+    text-decoration: none;  
+    text-transform: uppercase;  
+    overflow: hidden;  
+    transition: .5s;  
+    margin-top: 40px;  
+    letter-spacing: 4px  
+   }  
+   .login-box a:hover {  
+    background: #231261;  
+    color: #fff;  
+    border-radius: 5px;  
+    box-shadow: 0 0 5px #032bf4,  
+          0 0 25px #1a247c,  
+          0 0 50px #1a247c,  
+          0 0 100px #1a247c;  
+   }  
+   .login-box a span {  
+    position: absolute;  
+    display: block;  
+   }  
+   .login-box a span:nth-child(1) {  
+    top: 0;  
+    left: -100%;  
+    width: 100%;  
+    height: 2px;  
+    background: linear-gradient(90deg, transparent, #4169E1);  
+      
+   }  
+   
+   .login-box a span:nth-child(2) {  
+    top: -100%;  
+    right: 0;  
+    width: 2px;  
+    height: 100%;  
+    background: linear-gradient(180deg, transparent, #4169E1);  
+     
+    animation-delay: .25s  
+   }  
+   
+   .login-box a span:nth-child(3) {  
+    bottom: 0;  
+    right: -100%;  
+    width: 100%;  
+    height: 2px;  
+    background: linear-gradient(270deg, transparent, #03e9f4);  
+    
+    animation-delay: .5s  
+   }  
+   
+   .login-box a span:nth-child(4) {  
+    bottom: -100%;  
+    left: 0;  
+    width: 2px;  
+    height: 100%;  
+    background: linear-gradient(360deg, transparent, #03e9f4);  
+   
+    animation-delay: .75s  
+   }  
+  
